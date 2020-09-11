@@ -385,8 +385,6 @@ p {
     font-size: 13px;
 }
 
-.main-header {}
-
 .search a {
     color: #b0b435;
 }
@@ -748,8 +746,6 @@ nav.navbar.bootsnav ul.navbar-nav li.dropdown ul.dropdown-menu li a {
     padding: 6px 25px;
 }
 
-nav.navbar.bootsnav ul.navbar-nav li.dropdown ul.dropdown-menu li a:hover {}
-
 nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
     left: auto;
 }
@@ -757,8 +753,6 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
 .custom-select-box .dropdown-item {
     padding: 5px 10px;
 }
-
-.btn-cart {}
 
 .cart-list h6 a {
     font-size: 16px;
@@ -1094,8 +1088,6 @@ ul.cart-list>li.total>.btn:hover {
 .filter-button-group button.active {
     background: #000000;
 }
-
-.filter-button-group button {}
 
 .products-single {
     overflow: hidden;
@@ -1524,14 +1516,24 @@ ul.cart-list>li.total>.btn:hover {
     border-top: 1px solid rgba(255, 255, 255, .6);
 }
 
-.footer-top-box {
-    margin-bottom: 30px;
+.footer-top-box h4 {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 700;
 }
 
-.footer-top-box h3 {
-    color: #ffffff;
-    position: relative;
-    font-size: 20px;
+.footer-top-box h4::before {
+    border-bottom: 3px solid #8ed7e3;
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
 }
 
 .footer-top-box h3::before {
@@ -1613,6 +1615,7 @@ ul.cart-list>li.total>.btn:hover {
     border-color: #b0b435;
 }
 
+.footer-top-box,
 .footer-widget,
 .footer-link,
 .footer-link-contact {
@@ -1645,8 +1648,6 @@ ul.cart-list>li.total>.btn:hover {
     font-size: 14px;
     padding-bottom: 20px;
 }
-
-.footer-link {}
 
 .footer-link h4 {
     color: #ffffff;
@@ -2597,16 +2598,6 @@ ul.cart-list>li.total>.btn:hover {
     box-shadow: none;
 }
 
-.new-account-login h5 {
-    font-size: 18px;
-    color: #1111111;
-    font-weight: 600;
-}
-
-.new-account-login h5 a:hover {
-    color: #b0b435;
-}
-
 .review-form-box button {
     padding: 10px 20px;
     color: #ffffff;
@@ -2667,8 +2658,6 @@ ul.cart-list>li.total>.btn:hover {
 .service-icon i {
     font-size: 34px;
 }
-
-.my-account-page a:hover i {}
 
 .service-desc p {
     font-size: 16px;
@@ -3024,8 +3013,6 @@ ul.cart-list>li.total>.btn:hover {
     border: none;
 }
 
-.share-bar {}
-
 .share-bar a {
     background: #b0b435;
     color: #ffffff;
@@ -3034,10 +3021,6 @@ ul.cart-list>li.total>.btn:hover {
     width: 34px;
     text-align: center;
 }
-
-.share-bar a {}
-
-.featured-products-box {}
 
 .featured-products-box .owl-nav {
     position: absolute;
