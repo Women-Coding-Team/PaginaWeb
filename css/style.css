@@ -1517,7 +1517,7 @@ ul.cart-list>li.total>.btn:hover {
 
 .footer-main {
     padding: 70px 0px;
-    background: #010101;
+    background: #0c072e;
 }
 
 .footer-main hr {
@@ -1535,7 +1535,7 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-top-box h3::before {
-    border-bottom: 2px solid #b0b435;
+    border-bottom: 2px solid #8ed7e3;
     content: "";
     height: 3px;
     width: 50%;
@@ -1630,7 +1630,7 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-widget h4::before {
-    border-bottom: 3px solid #b0b435;
+    border-bottom: 3px solid #8ed7e3;
     content: "";
     height: 3px;
     width: 100%;
@@ -1659,7 +1659,7 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-link h4::before {
-    border-bottom: 3px solid #b0b435;
+    border-bottom: 3px solid #8ed7e3;
     content: "";
     height: 3px;
     width: 100%;
@@ -1721,7 +1721,7 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-link-contact h4::before {
-    border-bottom: 3px solid #b0b435;
+    border-bottom: 3px solid #8ed7e3;
     content: "";
     height: 3px;
     width: 100%;
@@ -1767,7 +1767,7 @@ ul.cart-list>li.total>.btn:hover {
 /*------------------------------------------------------------------ Copyright -------------------------------------------------------------------*/
 
 .footer-copyright {
-    background: #060606;
+    background: #0c072e;
     padding: 20px 0px;
     position: relative;
 }
