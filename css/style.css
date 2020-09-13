@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700');
 
 /*
 
@@ -36,7 +37,7 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.80857;
 }
 
@@ -644,11 +645,11 @@ nav.navbar.bootsnav ul.nav li.active>a:hover {
 }
 
 nav.navbar.bootsnav ul.nav li>a:hover {
-    color: #0696dd;
+    color: #fc7000;
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw>a:hover {
-    color: #0696dd;
+    color: #fc7000;
 }
 
 @media (min-width: 1024px) {
@@ -1611,8 +1612,8 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-top-box ul li a:hover {
-    color: #b0b435;
-    border-color: #b0b435;
+    color: #fc7000;
+    border-color: #fc7000;
 }
 
 .footer-top-box,
@@ -1749,6 +1750,20 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-link-contact ul li p {
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: 300;
+    padding-right: 16px;
+    line-height: 24px;
+}
+
+.footer-link-contact p {
+    padding-left: 10px;
+    color: #cccccc;
+    position: relative;
+}
+
+.footer-link-contact p {
     font-size: 16px;
     color: #cccccc;
     font-weight: 300;
