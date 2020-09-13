@@ -390,7 +390,7 @@ p {
 }
 
 .attr-nav>ul>li>a:hover {
-    color: #b0b435;
+    color: #0696dd;
 }
 
 nav.navbar.bootsnav ul.nav>li>a {
@@ -636,19 +636,19 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 
 nav.navbar.bootsnav ul.nav li.active>a {
-    color: #b0b435;
+    color: #0696dd;
 }
 
 nav.navbar.bootsnav ul.nav li.active>a:hover {
-    color: #b0b435;
+    color: #0696dd;
 }
 
 nav.navbar.bootsnav ul.nav li>a:hover {
-    color: #b0b435;
+    color: #0696dd;
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw>a:hover {
-    color: #b0b435;
+    color: #0696dd;
 }
 
 @media (min-width: 1024px) {
@@ -1508,7 +1508,7 @@ ul.cart-list>li.total>.btn:hover {
 /*------------------------------------------------------------------ Footer Main -------------------------------------------------------------------*/
 
 .footer-main {
-    padding: 70px 0px;
+    padding: 5px 0px;
     background: #0c072e;
 }
 
@@ -1521,7 +1521,7 @@ ul.cart-list>li.total>.btn:hover {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     position: relative;
     font-weight: 700;
 }
@@ -1539,7 +1539,7 @@ ul.cart-list>li.total>.btn:hover {
 .footer-top-box h3::before {
     border-bottom: 2px solid #8ed7e3;
     content: "";
-    height: 3px;
+    height: 1px;
     width: 50%;
     position: absolute;
     bottom: 3px;
@@ -2338,13 +2338,13 @@ ul.cart-list>li.total>.btn:hover {
 .product-item-filter li .nav-link {
     border: none;
     border-radius: 0px;
-    color: #111111;
+    color: #0c072e;
     font-size: 18px;
     padding: 4px 12px;
 }
 
 .product-item-filter li .nav-link.active {
-    background: #b0b435;
+    background: #0696dd;
     border: none;
     color: #ffffff;
 }
