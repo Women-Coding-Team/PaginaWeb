@@ -185,6 +185,27 @@ p {
 }
 
 
+/*Primer Div de la página principal*/
+
+.background-image {
+    background-image: url("https://raw.githubusercontent.com/Women-Coding-Team/PaginaWeb/master/images/muestra-0.jpg");
+    /*background-color: #cccccc;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-white {
+    background-color: white;
+    opacity: 0.9;
+}
+
+.large {
+    height: 900px;
+    margin-bottom: 0px;
+}
+
+
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
 
 #back-to-top {
