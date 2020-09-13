@@ -183,7 +183,22 @@ p {
     box-shadow: none !important
 }
 
-
+/*Primer Div de la página principal*/
+.background-image{
+    background-image: url("https://raw.githubusercontent.com/MooiBlack/Portafolio/master/Chillhop/images/friendsCircle.jpg");
+    /*background-color: #cccccc;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-white{
+    background-color: white;
+    opacity: 0.9;
+}
+.large{
+    height: 850px;
+    margin-bottom: 0px;
+}
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
 
 #back-to-top {
