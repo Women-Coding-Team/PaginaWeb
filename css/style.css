@@ -806,7 +806,7 @@ ul.cart-list p .price {
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    background: #b0b435;
+    background: #0c072e;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -1848,7 +1848,7 @@ ion-icon{
 /*------------------------------------------------------------------ All Pages -------------------------------------------------------------------*/
 
 .all-title-box {
-    background: url("../images/all-bg-title.jpg") no-repeat center center;
+    background: url("../images/muestra-0.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
@@ -1880,7 +1880,7 @@ ion-icon{
 }
 
 .all-title-box .breadcrumb {
-    background: #b0b435;
+    background: #0c072e;
     margin: 0px;
     display: inline-block;
     border-radius: 0px;
@@ -1889,7 +1889,7 @@ ion-icon{
 
 .all-title-box .breadcrumb li {
     display: inline-block;
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
 }
 
@@ -1899,7 +1899,7 @@ ion-icon{
 }
 
 .all-title-box .breadcrumb-item+.breadcrumb-item::before {
-    color: #000000;
+    color: #ffffff;
 }
 
 .about-box-main {
@@ -1960,7 +1960,7 @@ ion-icon{
     width: 100%;
     height: 0;
     border-radius: 0px;
-    background: #b0b435;
+    background: #0c072e;
     position: absolute;
     top: 0;
     left: 0;
