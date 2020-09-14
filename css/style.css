@@ -1609,6 +1609,9 @@ ul.cart-list>li.total>.btn:hover {
 .footer-top-box ul {
     display: inline-block;
 }
+.space-icons-footer{
+    margin-right: 10px;
+}
 
 .footer-top-box ul li {
     float: left;
