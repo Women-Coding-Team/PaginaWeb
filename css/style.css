@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700');
 
 /*
 
@@ -36,7 +37,7 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.80857;
 }
 
@@ -183,22 +184,28 @@ p {
     box-shadow: none !important
 }
 
+
 /*Primer Div de la página principal*/
-.background-image{
+
+.background-image {
     background-image: url("https://raw.githubusercontent.com/Women-Coding-Team/PaginaWeb/master/images/muestra-0.jpg");
     /*background-color: #cccccc;*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.background-white{
+
+.background-white {
     background-color: white;
     opacity: 0.9;
 }
-.large{
-    height:600px;
+
+.large {
+    height: 900px;
     margin-bottom: 0px;
 }
+
+
 /*------------------------------------------------------------------ LOADER -------------------------------------------------------------------*/
 
 #back-to-top {
@@ -659,11 +666,11 @@ nav.navbar.bootsnav ul.nav li.active>a:hover {
 }
 
 nav.navbar.bootsnav ul.nav li>a:hover {
-    color: #0696dd;
+    color: #fc7000;
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw>a:hover {
-    color: #0696dd;
+    color: #fc7000;
 }
 
 @media (min-width: 1024px) {
@@ -1629,8 +1636,8 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-top-box ul li a:hover {
-    color: #b0b435;
-    border-color: #b0b435;
+    color: #fc7000;
+    border-color: #fc7000;
 }
 
 .footer-top-box,
@@ -1772,6 +1779,28 @@ ul.cart-list>li.total>.btn:hover {
     font-weight: 300;
     padding-right: 16px;
     line-height: 24px;
+}
+
+.footer-link-contact p {
+    padding-left: 10px;
+    color: #cccccc;
+    position: relative;
+}
+
+.footer-link-contact p {
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: 300;
+    padding-right: 16px;
+    line-height: 24px;
+}
+
+.footer-link-contact p a {
+    color: #fff;
+}
+
+.footer-link-contact p a:hover {
+    color: #fc7000;
 }
 
 .footer-link-contact ul li p a {
