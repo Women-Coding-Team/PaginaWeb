@@ -2077,7 +2077,7 @@ ion-icon{
 
 .our-team .social li a:hover {
     width: 35px;
-    background: #b0b435;
+    background: #0c072e;
     transition-delay: 0s;
 }
 
@@ -2085,7 +2085,7 @@ ion-icon{
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background: #b0b435;
+    background: #0c072e;
     text-align: center;
     color: #fff;
     position: absolute;
@@ -2130,7 +2130,7 @@ ion-icon{
 }
 
 .hover-team .team-content .title {
-    border-bottom: 2px solid #b0b435;
+    border-bottom: 2px solid #0c072e;
 }
 
 .shop-box-inner {
