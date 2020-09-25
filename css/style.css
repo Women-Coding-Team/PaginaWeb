@@ -647,10 +647,9 @@ nav.navbar-inverse.navbar-full .navbar-toggle {
 
 nav.navbar.bootsnav ul.nav>li>a {
     position: relative;
-    font-weight: 700;
-    font-size: 16px;
-    color: #000000;
-    text-transform: uppercase;
+    font-weight: 340;
+    font-size: 23px;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -671,6 +670,9 @@ nav.navbar.bootsnav ul.nav li>a:hover {
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw>a:hover {
     color: #fc7000;
+}
+a.navbar-brand img{
+    margin: 0 120px;
 }
 
 @media (min-width: 1024px) {
@@ -771,7 +773,9 @@ nav.navbar.bootsnav ul.navbar-nav li.dropdown ul.dropdown-menu li a {
 nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
     left: auto;
 }
-
+.navbar{
+    padding: 2.5rem 1rem;
+}
 .custom-select-box .dropdown-item {
     padding: 5px 10px;
 }
