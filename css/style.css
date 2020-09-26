@@ -769,6 +769,17 @@ div.large-carrousel h2{
     height: 470px;
 }
 /* Fin carrusel */
+@media (max-width: 767px){
+    div.large-carrousel{
+        height: 300px;
+    }
+    div.large-carrousel p{
+        font-size: 6px;
+    }
+    div.carousel-caption{
+        top: 50%;
+    }
+}
 /*Boton del carrusel*/
 .boton{
     border-radius: 17px;
@@ -802,6 +813,12 @@ img.logo{
         /*height: 30px;*/
     }
  }
+@media only screen and (min-width: 280px) and (max-width: 599px){
+    img{
+        width: 20%;
+        margin: 0 auto;
+    }
+}
 .arrow::before {
     font-family: 'FontAwesome';
     content: "\f0d7";
