@@ -8,6 +8,9 @@
 		 padding-left: 10px;
 		 padding-right: 30px;
     }
+     .navbar{
+        padding: 1rem 1rem;
+    }
 }
  @media (min-width: 768px) and (max-width: 991px) {
      nav.navbar.bootsnav .navbar-header{
@@ -71,6 +74,9 @@
     }
      .right-phone-box{
          display: none;
+    }
+     .navbar{
+        padding: 1rem 1rem;
     }
 }
 /* mobile or only mobile */
@@ -203,6 +209,9 @@
 	.offer-box-products{
 		margin-bottom: 30px;
 	}
+     .navbar{
+        padding: 1rem 1rem;
+    }
 }
  @media only screen and (min-width: 280px) and (max-width: 599px) {
      .navbar-light .navbar-toggler{
@@ -328,5 +337,8 @@
 	.side-menu p{
 		display: none;
 	}
+     .navbar{
+        padding: 1rem 1rem;
+    }
 }
  
