@@ -14,8 +14,8 @@
          width: 100%;
     }
      .navbar-light .navbar-toggler{
-         border-color: #b0b435;
-         color: #010101;
+         border-color: none;
+         color: white;
          border-radius: 0px;
          margin-right: 7px;
          padding-top: 6px;
