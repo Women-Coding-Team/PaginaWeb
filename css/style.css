@@ -319,7 +319,7 @@ p {
 .slide {
     color: #FFFFFF;
     font-size: 13px;
-    padding: 2px 15px;
+    padding: 0px 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -778,9 +778,10 @@ div.large-carrousel h2{
         font-size: 6px;
     }
     div.carousel-caption{
-        top: 50%;
+        top: 30%;
     }
 }
+
 /*Boton del carrusel*/
 .boton{
     border-radius: 17px;
@@ -807,18 +808,30 @@ img.logo{
     }
 }
 /* */
-@media (max-width: 992px) { 
-    img{
-        width: 20%;
-        margin: 0 auto;
-        /*height: 30px;*/
-    }
- }
-@media only screen and (min-width: 280px) and (max-width: 599px){
-    img{
-        width: 20%;
-        margin: 0 auto;
-    }
+.centered{
+    margin: 0;
+    padding-top: 40px;
+}
+.background-blue{
+    background-color: #0c072e;
+    height: 500px;
+}
+.background-cian{
+    background-color: rgb(142,215,227);
+    height: 500px;
+}
+.margin{
+    margin: 0px 30px;
+}
+.align-right{
+    width: 50%;
+    text-align: end;
+}
+div.background-blue h2{
+    margin-left: 50px;
+}
+div.background-cian>h2{
+    color: #0c072e;
 }
 .arrow::before {
     font-family: 'FontAwesome';
