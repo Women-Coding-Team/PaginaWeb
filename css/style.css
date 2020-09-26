@@ -782,12 +782,26 @@ div.large-carrousel h2{
     font-size: 15px;
 }
 /*Fin del boton*/
+/* Logos del navbar*/
+img.logo{
+    width: 100%;
+    max-width: 55px;
+    height: 100%;
+    max-height: 65px;
+}
 @media (max-width: 767px) {
     nav.navbar.navbar-inverse.navbar-mobile ul.nav {
         border-top: solid 1px #222;
     }
 }
-
+/* */
+@media (max-width: 992px) { 
+    img{
+        width: 20%;
+        margin: 0 auto;
+        /*height: 30px;*/
+    }
+ }
 .arrow::before {
     font-family: 'FontAwesome';
     content: "\f0d7";
