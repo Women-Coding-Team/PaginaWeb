@@ -64,8 +64,10 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #1f1f1f;
-    margin: 0
+    color: ghostwhite;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.80857
 }
 
 h1 {
@@ -117,7 +119,10 @@ a {
     text-decoration: none;
     outline: none;
 }
-
+b{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.80857
+}
 a,
 .btn {
     text-decoration: none !important;
@@ -671,8 +676,8 @@ nav.navbar.bootsnav ul.nav li>a:hover {
 nav.navbar.bootsnav ul.nav li.megamenu-fw>a:hover {
     color: #fc7000;
 }
-a.navbar-brand img{
-    margin: 0 120px;
+a img{
+    margin: 0 25px;
 }
 
 @media (min-width: 1024px) {
@@ -741,7 +746,42 @@ a.navbar-brand img{
         background-color: #222;
     }
 }
-
+/* Carrusel
+*/
+div.large-carrousel>img{
+    filter: brightness(30%);
+}
+div.large-carrousel p{
+    font-size: 18px;
+    width: 530px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.80857
+}
+div.large-carrousel h2{
+    width: 710px;
+    margin: 0 auto;
+}
+.carousel-caption{
+    top: 30%;
+}
+.large-carrousel{
+    height: 480px;
+}
+/* Fin carrusel */
+/*Boton del carrusel*/
+.boton{
+    border-radius: 17px;
+    height: 50px;
+}
+.boton-transparente{
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    font-family: 'Metropolis',sans-serif;
+    font-size: 15px;
+}
+/*Fin del boton*/
 @media (max-width: 767px) {
     nav.navbar.navbar-inverse.navbar-mobile ul.nav {
         border-top: solid 1px #222;
