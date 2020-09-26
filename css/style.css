@@ -785,9 +785,9 @@ div.large-carrousel h2{
 /* Logos del navbar*/
 img.logo{
     width: 100%;
-    max-width: 55px;
+    max-width: 65px;
     height: 100%;
-    max-height: 65px;
+    max-height: 68px;
 }
 @media (max-width: 767px) {
     nav.navbar.navbar-inverse.navbar-mobile ul.nav {
