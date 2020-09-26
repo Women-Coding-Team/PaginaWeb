@@ -807,6 +807,7 @@ img.logo{
         border-top: solid 1px #222;
     }
 }
+
 /* */
 .centered{
     margin: 0;
@@ -824,14 +825,19 @@ img.logo{
     margin: 0px 30px;
 }
 .align-right{
-    width: 50%;
-    text-align: end;
+    margin-right: 0;
+    text-align: right;
 }
 div.background-blue h2{
     margin-left: 50px;
 }
 div.background-cian>h2{
     color: #0c072e;
+}
+/*Imágenes de líneas*/
+div.align-right>img{
+    width: 100%;
+    max-width: 2000px;
 }
 .arrow::before {
     font-family: 'FontAwesome';
