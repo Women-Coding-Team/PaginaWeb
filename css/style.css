@@ -816,11 +816,11 @@ img.logo{
 }
 .background-blue{
     background-color: #0c072e;
-    height: 500px;
+    height: 650px;
 }
 .background-cian{
     background-color: rgb(142,215,227);
-    height: 500px;
+    height: 650px;
 }
 .margin{
     margin: 0px 30px;
@@ -840,6 +840,65 @@ div.align-right>img{
     width: 100%;
     max-width: 2000px;
 }
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+/* Carrusel falso*/
+.carrusel{
+    /*son clases falsas para que no se apliquen las mismas caracteriticas del script slider-boxes.js a ambos carruseles*/
+}
+.carrusel-item{
+    /*son clases falsas para que no se apliquen las mismas caracteriticas del script slider-boxes.js a ambos carruseles*/
+}
+/*Borde de las tarjetas del segundo carrusel*/
+.card{
+    border-radius: 1.5rem;
+}
+.card-blue{
+    background-color: rgb(142,215,227);
+}
+div.card img{
+    align-content: flex-start;
+}
+/* Esquina superior derecha*/
+.top-right{
+    position: relative; 
+    bottom: 22px; 
+    left: 22px; 
+    border-radius: 1.5rem;
+}
+
 .arrow::before {
     font-family: 'FontAwesome';
     content: "\f0d7";
