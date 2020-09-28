@@ -64,7 +64,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: ghostwhite;
+    /*color: ghostwhite;*/
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.80857
@@ -898,7 +898,16 @@ div.card img{
     left: 25px; 
     border-radius: 1.5rem;
 }
-
+div.margin h2{
+    color: white;
+}
+div.color-blue h2{
+    color: #0c072e;
+    margin-left: 50px;
+}
+div.service-block-inner h3{
+    color: #0c072e;
+}
 .arrow::before {
     font-family: 'FontAwesome';
     content: "\f0d7";
